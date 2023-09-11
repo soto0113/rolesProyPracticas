@@ -1,0 +1,24 @@
+para descargar mySQl:
+https://dev.mysql.com/downloads/installer/
+
+tutorial de api:
+https://www.bezkoder.com/django-angular-crud-rest-framework/
+
+Instalar dependencias del proyecto en el ambiente:
+pip install -r requirements.txt
+
+Actualizar dependencias del proyecto:
+pip freeze > requirements.txt
+
+levantar front:
+    ng serve --port 8081
+
+levantar backend:
+    python manage.py runserver 8080
+
+Crear servicios:
+    ng g s services/Nombre de carpeta nueva/nombredel servicio
+    Ejemplo : ng g s services/EstudianteServices/EstudianteServices
+
+Crear componente:
+    ng g c body/cargarListado
